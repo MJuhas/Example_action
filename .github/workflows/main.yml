@@ -1,8 +1,14 @@
 name: Node.js CI
 
 on:
-  schedule: 
-  - cron: '* * * * *'
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+#  schedule: 
+#  - cron: '* * * * *' for every 5 minuts *=> min ** hour *** day of mouth **** month ***** day of week
 
 jobs:
   build:
