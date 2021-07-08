@@ -1,0 +1,49 @@
+tsc//
+tsc --init 
+.....and change 
+ "target": "es6",  
+ "outDir": "./dist",
+ "rootDir": "./src",
+ "moduleResolution": "node",
+ and you use only tsc without tsc myfile.ts
+
+npm --init 
+npm i -D typescript ts-node nodemon node @types/node
+
+....and change
+package.json
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+
+
+.....run code via
+npm run dev
+
+
+
+test in Jest https://itnext.io/testing-with-jest-in-typescript-cc1cd0095421
+
+npm i -D jest ts-jest @types/jest
+
+in tsconfig.json add ... 
+
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+next instal 
+ npm i -D jest ts-jest @types/jest   
+ npx ts-jest config:init
+
+cd .. 
+mkdir myfolder
+new-item myfiles.ts or txt
+code myfiles.ts
+remove-item myfiles.ts
+Rename-Item -path app.ts -NewName app.test.ts
