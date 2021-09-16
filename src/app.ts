@@ -15,7 +15,5 @@ console.log(myfunction(10, 10))
 // comment 6
 // comment 7
 // comment 8
-<<<<<<< HEAD
 // comment 9
-=======
->>>>>>> 8c76cb6fc0bcb61a5514c5644a6cf0927baffb04
+// comment 10
