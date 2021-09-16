@@ -7,3 +7,4 @@ export const myfunction = (a: number, b: number): string => `this is my ${add(a,
 console.log(myfunction(10, 10))
 
 
+// coment 1
