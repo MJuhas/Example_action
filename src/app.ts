@@ -24,3 +24,6 @@ console.log(myfunction(10, 10))
 // c 15
 // c 16
 // c 17
+// c 18
+// c 19
+// c 20
